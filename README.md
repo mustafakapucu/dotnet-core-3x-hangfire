@@ -10,7 +10,7 @@ dotnet add package HangFire.SqlServer
 CREATE DATABASE [HangfireTest]
 GO
 
-#appsettings.json
+# appsettings.json
 "ConnectionStrings": {
     "HangfireConnection": "Server=.;Database=HangfireTest;Integrated Security=SSPI;"
   }
@@ -21,7 +21,7 @@ GO
     }
   }
   
- #Run project and Hangfire 
+ # Run project and Hangfire 
  dotnet watch run
  
  http://localhost:5000/hangfire
